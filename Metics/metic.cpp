@@ -10,7 +10,7 @@ int SqEquation(int a, int b, int c) {
     if (D > 0) {
         cout << x1 + sqrt(D) / (2 * a) << " " << x1 - sqrt(D) / (2 * a) << endl;
     } else if (D == 0) {
-        printf("%f %f", x1,x1);
+        printf("%.2f %.2f", x1,x1);
     } else {
         printf("No real roots");
     }

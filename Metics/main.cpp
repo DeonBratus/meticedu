@@ -1,6 +1,12 @@
 #include <iostream>
-#include "metic.h"
+#include <fstream>
+#include <string>
+#include "mmrycode.h"
+using namespace std;
 int main() {
-    char str[] = "Hello";
-    std::cout<<StrLen(str);
+    string name; string text;
+    cin>>name;
+    cin>>text;
+    write2file("txtFiles\\" + name + ".txt", text);
+    return 0;
 }
