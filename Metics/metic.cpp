@@ -10,7 +10,7 @@ int SqEquation(int a, int b, int c) {
     if (D > 0) {
         cout << x1 + sqrt(D) / (2 * a) << " " << x1 - sqrt(D) / (2 * a) << endl;
     } else if (D == 0) {
-        cout << x1 << " " << x1 << endl;
+        printf("%f %f", x1,x1);
     } else {
         printf("No real roots");
     }
@@ -33,7 +33,7 @@ int Max(int * p, int * q) {
 }
 // Выводит введеные данные в обратном порядке с помощью рекурсии
 int RevOrd() {
-    int n = 0; std::cin >> n;
+    int n = 0; scanf("%d", &n);
     if(n == 0) return 0;
     RevOrd(); std::cout << n << " ";
 }
