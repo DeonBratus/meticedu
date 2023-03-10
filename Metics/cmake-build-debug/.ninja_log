@@ -1,0 +1,8 @@
+# ninja log v5
+524	638	7001783353504068	untitled2.exe	6b079fcfda87af2c
+2	277	7001798919121534	build.ninja	aea1501ab6dca952
+0	696	7001798960982000	CMakeFiles/meticedu.dir/main.cpp.obj	3d0821c3ac188e7f
+12	879	7001798962814327	CMakeFiles/meticedu.dir/metic.cpp.obj	8c5a64e7b49cbc29
+879	1016	7001798964120904	meticedu.exe	a730b3c9da372e0e
+6	603	7001799188770158	CMakeFiles/meticedu.dir/main.cpp.obj	3d0821c3ac188e7f
+603	716	7001799189865589	meticedu.exe	a730b3c9da372e0e

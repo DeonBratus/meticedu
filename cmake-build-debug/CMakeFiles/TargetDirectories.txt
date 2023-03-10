@@ -1,3 +1,0 @@
-C:/Users/bratu/CLionProjects/meticedu/cmake-build-debug/CMakeFiles/meticedu.dir
-C:/Users/bratu/CLionProjects/meticedu/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/bratu/CLionProjects/meticedu/cmake-build-debug/CMakeFiles/rebuild_cache.dir
