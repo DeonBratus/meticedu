@@ -45,3 +45,19 @@ unsigned StrLen(char *str) {
         cnt++;
     return cnt;
 }
+// Склеивает две строки
+void StrCat(char *to,  char *from)
+{
+        char *p = to;
+        for(;*p != '\0'; ++p){}
+        *p = *from;
+        for(;*p !='\0';++p)
+            *p = *from++;
+}
+// Выводит из кол-ва секунд время в формате H:MM:SS
+void sec2hmc (int seconds)
+{
+    cout << seconds/3600%24 << ":";
+    cout << seconds/60%60/10 << seconds/60%60%10 <<":";
+    cout << seconds%60/10    << seconds%60%10    << endl;
+}

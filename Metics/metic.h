@@ -11,4 +11,7 @@ int RevOrd();
 
 unsigned StrLen(char *str);
 
+void StrCat(char *to, char *from);
+
+void sec2hmc (int seconds);
 #endif
