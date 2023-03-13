@@ -3,9 +3,7 @@
  */
 #include <iostream>
 #include <cmath>
-
 using namespace std;
-
 // Вычисляет значения корней квадратного уравнения
 int SqEquation(int a, int b, int c) {
     int D = b * b - (4 * a * c);
